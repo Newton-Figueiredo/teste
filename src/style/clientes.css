@@ -1,0 +1,45 @@
+.main-clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-clientes img{
+    width: 20rem;
+}
+
+.main-clientes form{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-clientes input {
+    height: 3rem;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    background: #fff;
+    border: 1px solid #a8a8b3;
+    margin: 5px 0;
+  }
+
+  .main-clientes button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 5vh;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #825af8;
+    padding: 0 32px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+
+  }
+
+  h1 {
+      margin-bottom: 1.5rem;
+  }
